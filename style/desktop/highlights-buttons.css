@@ -1,0 +1,79 @@
+.highlights-buttons-section {
+  font-family: 'Inter', sans-serif;
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.highlights-buttons-section h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #474747;
+  letter-spacing: 0.75px;
+  text-align: center;
+}
+
+.highlights-buttons-section .buttons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 48px;
+}
+
+.highlights-buttons-section .buttons .button .buttom-image {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  height: 104px;
+  width: 104px;
+  align-items: center;
+  justify-content: center;
+}
+
+.highlights-buttons-section .buttons .button .buttom-image .icon {
+  width: inherit;
+  height: inherit;
+  display: inline-block;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background-color: #8F8F8F;
+}
+
+.highlights-buttons-section .buttons .button .buttom-image .icon[tipo="t-shirt"] {
+  -webkit-mask: url(/assets/images/highlights-buttons/t-shirt.svg) no-repeat 50% 50%;
+  mask: url(/assets/images/highlights-buttons/t-shirt.svg) no-repeat 50% 50%; 
+}
+
+.highlights-buttons-section .buttons .button .buttom-image .icon[tipo="pant"] {
+  -webkit-mask: url(/assets/images/highlights-buttons/pant.svg) no-repeat 50% 50%;
+  mask: url(/assets/images/highlights-buttons/pant.svg) no-repeat 50% 50%; 
+}
+
+.highlights-buttons-section .buttons .button .buttom-image .icon[tipo="cap"] {
+  -webkit-mask: url(/assets/images/highlights-buttons/cap.svg) no-repeat 50% 50%;
+  mask: url(/assets/images/highlights-buttons/cap.svg) no-repeat 50% 50%; 
+}
+
+.highlights-buttons-section .buttons .button .buttom-image .icon[tipo="headphone"] {
+  -webkit-mask: url(/assets/images/highlights-buttons/headphone.svg) no-repeat 50% 50%;
+  mask: url(/assets/images/highlights-buttons/headphone.svg) no-repeat 50% 50%; 
+}
+
+.highlights-buttons-section .buttons .button .buttom-image .icon[tipo="sneaker"] {
+  -webkit-mask: url(/assets/images/highlights-buttons/sneaker.svg) no-repeat 50% 50%;
+  mask: url(/assets/images/highlights-buttons/sneaker.svg) no-repeat 50% 50%; 
+}
+
+.highlights-buttons-section .buttons .button .buttom-image .icon:hover {
+  background-color: #C92071;
+}
+
+.highlights-buttons-section .buttons .button .button-title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.75px;
+  color: #474747;
+}
