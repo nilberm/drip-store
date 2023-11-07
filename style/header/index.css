@@ -5,7 +5,7 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  padding: 42px 100px 20px 100px;
+  padding: 1rem calc((100vw - 1200px) / 2);
   background-color: #fff;
 }
 
@@ -120,7 +120,8 @@ header .shopping-cart span {
 
 nav {
   background-color: #fff;
-  padding: 20px 100px 31px 100px;
+  padding: 1rem calc((100vw - 1200px) / 2);
+  padding-bottom: 31px;
 }
 
 nav ul {
