@@ -1,5 +1,5 @@
 .highlights-images-section {
-  padding: 42px 100px;
+  padding: 1rem calc((100vw - 1200px) / 2);
 }
 
 .highlights-images-section h2 {

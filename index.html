@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/style/mobile.css" />
 
     <link rel="stylesheet" href="/style/header/index.css">
+    <link rel="stylesheet" href="/style/hero-carousel/index.css">
     <link rel="stylesheet" href="/style/highlights-buttons/index.css">
     <link rel="stylesheet" href="/style/highlights-images/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -80,7 +81,64 @@
     </nav>
 
     <main>
-      <section class="hero-carousel"></section>
+      <section class="hero-carousel">
+        <div class="slider-btns">
+          <a href="#slide-1" class="active"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+          <a href="#slide-4"></a>
+        </div>
+
+        <div class="pages-carousel">
+          <div id="slide-1" class="slide">
+            <img class="background-image" src="/assets/images/hero-carousel/background-detail.png" alt="background image">
+            <div class="offer-info">
+              <span>Melhores ofertas personalizadas</span>
+              <h3>Queima de stoque Nike 🔥</h3>
+              <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
+
+              <a href="#" class="see-more-btn">Ver Ofertas</a>
+            </div>
+            <div class="product-picture">
+              <img src="/assets/images/hero-carousel/shoe-1.png" alt="sapado nike">
+            </div>
+          </div>
+          <div id="slide-2" class="slide"><img class="background-image" src="/assets/images/hero-carousel/background-detail.png" alt="background image">
+            <div class="offer-info">
+              <span>Melhores ofertas personalizadas</span>
+              <h3>Queima de stoque Nike 🔥</h3>
+              <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
+
+              <a href="#" class="see-more-btn">Ver Ofertas</a>
+            </div>
+            <div class="product-picture">
+              <img src="/assets/images/hero-carousel/shoe-2.png" alt="sapado nike">
+            </div></div>
+          <div id="slide-3" class="slide"><img class="background-image" src="/assets/images/hero-carousel/background-detail.png" alt="background image">
+            <div class="offer-info">
+              <span>Melhores ofertas personalizadas</span>
+              <h3>Queima de stoque Nike 🔥</h3>
+              <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
+
+              <a href="#" class="see-more-btn">Ver Ofertas</a>
+            </div>
+            <div class="product-picture">
+              <img src="/assets/images/hero-carousel/shoe-3.png" alt="sapado nike">
+            </div></div>
+          <div id="slide-4" class="slide"><img class="background-image" src="/assets/images/hero-carousel/background-detail.png" alt="background image">
+            <div class="offer-info">
+              <span>Melhores ofertas personalizadas</span>
+              <h3>Queima de stoque Nike 🔥</h3>
+              <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
+
+              <a href="#" class="see-more-btn">Ver Ofertas</a>
+            </div>
+            <div class="product-picture">
+              <img src="/assets/images/hero-carousel/shoe-4.png" alt="sapado nike">
+            </div></div>
+        </div>
+         
+      </section>
 
       <div class="highlights-images-section">
         <h2>Coleções em destaque</h2>
@@ -156,6 +214,23 @@
       <section class="special-offer"></section>
     </main>
     <footer></footer>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+  const links = document.querySelectorAll('.slider-btns a');
+
+  links.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+
+      links.forEach(function(link) {
+        link.classList.remove('active');
+      });
+
+      link.classList.add('active');
+    });
+  });
+});
+    </script>
   </body>
 </html>
 
