@@ -1,146 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style/global.css" />
-    <link rel="stylesheet" href="/style/mobile.css" />
 
-    <link rel="stylesheet" href="/style/header/index.css">
-    <link rel="stylesheet" href="/style/hero-carousel/index.css">
-    <link rel="stylesheet" href="/style/highlights-buttons/index.css">
-    <link rel="stylesheet" href="/style/highlights-images/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="shortcut icon"
-      href="/assets/images/logo/digital-logo.png"
-      type="image/x-icon"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style/global.css" />
+  <!-- <link rel="stylesheet" href="/style/mobile.css" /> -->
 
-    <title>Drip Store - Digital College</title>
+  <link rel="stylesheet" href="/style/header/index.css">
+  <link rel="stylesheet" href="/style/hero-carousel/index.css">
+  <link rel="stylesheet" href="/style/highlights-buttons/index.css">
+  <link rel="stylesheet" href="/style/highlights-images/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="shortcut icon" href="/assets/images/logo/digital-logo.png" type="image/x-icon" />
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const button = document.querySelector("#magnifier");
-        const input = document.querySelector("#search-input");
+  <title>Drip Store - Digital College</title>
 
-        button.addEventListener("click", function () {
-          input.focus();
-        });
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const button = document.querySelector("#magnifier");
+      const input = document.querySelector("#search-input");
+
+      button.addEventListener("click", function () {
+        input.focus();
       });
-    </script>
-  </head>
-  <body>
-    <header>
-      <a href="#" class="logo">
-        <img src="/assets/images/logo/digital-logo.png" alt="logo" />
-        <span>Digital Store</span>
-      </a>
+    });
+  </script>
+</head>
 
-      <div class="search">
-        <input
-          type="text"
-          id="search-input"
-          placeholder="Pesquisar produto..."
-        />
-        <button type="button" id="magnifier">
-          <img src="/assets/images/header/Search.png" alt="search icon" />
-        </button>
-      </div>
+<body>
+  <header>
+    <a href="#" class="logo">
+      <img src="/assets/images/logo/digital-logo.png" alt="logo" />
+      <span>Digital Store</span>
+    </a>
 
-      <div class="account-buttons">
-        <button class="sign-up" type="button">
-          <a href="#">Cadastre-se</a>
-        </button>
-        <button class="sign-in" type="button">
-          <a href="">Entrar</a>
-        </button>
-      </div>
-
-      <button type="button" class="shopping-cart">
-        <img
-          src="/assets/images/header/shopping-cart.png"
-          alt="shopping cart"
-        />
-        <span>2</span>
+    <div class="search">
+      <input type="text" id="search-input" placeholder="Pesquisar produto..." />
+      <button type="button" id="magnifier">
+        <img src="/assets/images/header/Search.png" alt="search icon" />
       </button>
-    </header>
+    </div>
 
-    <nav>
-      <ul>
-        <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">Produtos</a></li>
-        <li><a href="#">Categorias</a></li>
-        <li><a href="#">Meus Pedidos</a></li>
-      </ul>
-    </nav>
+    <div class="account-buttons">
+      <button class="sign-up" type="button">
+        <a href="#">Cadastre-se</a>
+      </button>
+      <button class="sign-in" type="button">
+        <a href="">Entrar</a>
+      </button>
+    </div>
 
-    <main>
-      <section class="hero-carousel">
-        <div class="slider-btns">
-          <a href="#slide-1" class="active"></a>
-          <a href="#slide-2"></a>
-          <a href="#slide-3"></a>
-          <a href="#slide-4"></a>
-        </div>
+    <button type="button" class="shopping-cart">
+      <img src="/assets/images/header/shopping-cart.png" alt="shopping cart" />
+      <span>2</span>
+    </button>
+  </header>
 
-        <div class="pages-carousel">
-          <div id="slide-1" class="slide">
-            <img class="background-image" src="/assets/images/hero-carousel/background-detail.png" alt="background image">
-            <div class="offer-info">
-              <span>Melhores ofertas personalizadas</span>
-              <h3>Queima de stoque Nike 🔥</h3>
-              <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
+  <nav>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">Produtos</a></li>
+      <li><a href="#">Categorias</a></li>
+      <li><a href="#">Meus Pedidos</a></li>
+    </ul>
+  </nav>
 
-              <a href="#" class="see-more-btn">Ver Ofertas</a>
-            </div>
-            <div class="product-picture">
-              <img src="/assets/images/hero-carousel/shoe-1.png" alt="sapado nike">
-            </div>
+  <main>
+    <section class="hero-carousel">
+      <div class="slider-btns">
+        <a href="#slide-1" class="active"></a>
+        <a href="#slide-2"></a>
+        <a href="#slide-3"></a>
+        <a href="#slide-4"></a>
+      </div>
+
+      <div class="pages-carousel">
+        <div id="slide-1" class="slide">
+          <img class="background-image" src="/assets/images/hero-carousel/background-detail.png" alt="background image">
+          <div class="offer-info">
+            <span>Melhores ofertas personalizadas</span>
+            <h3>Queima de estoque Nike 🔥</h3>
+            <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
+
+            <a href="#" class="see-more-btn">Ver Ofertas</a>
           </div>
-          <div id="slide-2" class="slide"><img class="background-image" src="/assets/images/hero-carousel/background-detail.png" alt="background image">
-            <div class="offer-info">
-              <span>Melhores ofertas personalizadas</span>
-              <h3>Queima de stoque Nike 🔥</h3>
-              <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
-
-              <a href="#" class="see-more-btn">Ver Ofertas</a>
-            </div>
-            <div class="product-picture">
-              <img src="/assets/images/hero-carousel/shoe-2.png" alt="sapado nike">
-            </div></div>
-          <div id="slide-3" class="slide"><img class="background-image" src="/assets/images/hero-carousel/background-detail.png" alt="background image">
-            <div class="offer-info">
-              <span>Melhores ofertas personalizadas</span>
-              <h3>Queima de stoque Nike 🔥</h3>
-              <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
-
-              <a href="#" class="see-more-btn">Ver Ofertas</a>
-            </div>
-            <div class="product-picture">
-              <img src="/assets/images/hero-carousel/shoe-3.png" alt="sapado nike">
-            </div></div>
-          <div id="slide-4" class="slide"><img class="background-image" src="/assets/images/hero-carousel/background-detail.png" alt="background image">
-            <div class="offer-info">
-              <span>Melhores ofertas personalizadas</span>
-              <h3>Queima de stoque Nike 🔥</h3>
-              <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
-
-              <a href="#" class="see-more-btn">Ver Ofertas</a>
-            </div>
-            <div class="product-picture">
-              <img src="/assets/images/hero-carousel/shoe-4.png" alt="sapado nike">
-            </div></div>
+          <div class="product-picture">
+            <img src="/assets/images/hero-carousel/shoe-1.png" alt="sapado nike">
+          </div>
         </div>
-         
-      </section>
+        <div id="slide-2" class="slide">
+          <img class="background-image" src="/assets/images/hero-carousel/background-detail.png" alt="background image">
+          <div class="offer-info">
+            <span>Melhores ofertas personalizadas</span>
+            <h3>Queima de stoque Nike 🔥</h3>
+            <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
 
-      <section class="highlights-images">
+            <a href="#" class="see-more-btn">Ver Ofertas</a>
+          </div>
+          <div class="product-picture">
+            <img src="/assets/images/hero-carousel/shoe-2.png" alt="sapado nike">
+          </div>
+        </div>
+        <div id="slide-3" class="slide">
+          <img class="background-image" src="/assets/images/hero-carousel/background-detail.png" alt="background image">
+          <div class="offer-info">
+            <span>Melhores ofertas personalizadas</span>
+            <h3>Queima de stoque Nike 🔥</h3>
+            <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
+
+            <a href="#" class="see-more-btn">Ver Ofertas</a>
+          </div>
+          <div class="product-picture">
+            <img src="/assets/images/hero-carousel/shoe-3.png" alt="sapado nike">
+          </div>
+        </div>
+        <div id="slide-4" class="slide">
+          <img class="background-image" src="/assets/images/hero-carousel/background-detail.png" alt="background image">
+          <div class="offer-info">
+            <span>Melhores ofertas personalizadas</span>
+            <h3>Queima de stoque Nike 🔥</h3>
+            <p>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
+
+            <a href="#" class="see-more-btn">Ver Ofertas</a>
+          </div>
+          <div class="product-picture">
+            <img src="/assets/images/hero-carousel/shoe-4.png" alt="sapado nike">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="highlights-images">
       <div class="highlights-images-section">
         <h2>Coleções em destaque</h2>
         <div class="cards">
@@ -184,8 +179,8 @@
         </div>
       </div>
     </section>
-    <div class="highlights-buttons-section">
-      <section class="highlights-buttons">
+    <section class="highlights-buttons">
+      <div class="highlights-buttons-section">
         <h2>Coleções em destaque</h2>
         <div class="buttons">
           <div class="button">
@@ -209,29 +204,30 @@
             <div class="button-title">Tênis</div>
           </div>
         </div>
-    </div>
+      </div>
+    </section>
 
-      <section class="trending-products"></section>
-      <section class="special-offer"></section>
-    </main>
-    <footer></footer>
+    <section class="trending-products"></section>
+    <section class="special-offer"></section>
+  </main>
+  <footer></footer>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-  const links = document.querySelectorAll('.slider-btns a');
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const links = document.querySelectorAll('.slider-btns a');
 
-  links.forEach(function(link) {
-    link.addEventListener('click', function(e) {
+      links.forEach(function (link) {
+        link.addEventListener('click', function (e) {
 
-      links.forEach(function(link) {
-        link.classList.remove('active');
+          links.forEach(function (link) {
+            link.classList.remove('active');
+          });
+
+          link.classList.add('active');
+        });
       });
-
-      link.classList.add('active');
     });
-  });
-});
-    </script>
-  </body>
-</html>
+  </script>
+</body>
 
+</html>
