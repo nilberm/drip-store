@@ -82,6 +82,7 @@
 .highlights-images-section .cards .card .card-content .buy:hover {
   color: #F7F7FC;
   background-color: #B5B6F2;
+  transition: 300ms;
 }
 /*
 h2 {

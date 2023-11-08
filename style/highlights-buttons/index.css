@@ -69,6 +69,7 @@
 
 .highlights-buttons-section .buttons .button .buttom-image .icon:hover {
   background-color: #C92071;
+  transition: 300ms;
 }
 
 .highlights-buttons-section .buttons .button .button-title {
