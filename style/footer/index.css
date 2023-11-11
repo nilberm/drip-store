@@ -10,6 +10,7 @@ footer {
 footer .content {
   display: flex;
   justify-content: space-between;
+  gap: 8rem;
 }
 
 footer .content .logo {
@@ -32,6 +33,39 @@ footer .content .column-footer {
   flex-direction: column;
   gap: 28px;
   margin: 1rem 0;
+  width: 100%;
+}
+
+footer .content .middle-columns {
+  display: flex;
+  gap: 4rem;
+}
+
+footer .content .middle-columns .column-footer {
+  width: 135px;
+}
+
+footer .content .column-footer .social {
+  display: flex;
+  gap: 2rem;
+}
+
+footer .content .column-footer h5 {
+  font-size: 20px;
+}
+
+footer .content .column-footer ul {
+  text-decoration: none;
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+footer .content .column-footer ul a {
+  color: #fff;
+  text-decoration: none;
 }
 
 footer .bottom {
@@ -39,5 +73,6 @@ footer .bottom {
   width: 100%;
   justify-content: center;
   border-top: 1px solid #ffffff;
-  padding-top: 1.7rem;
+  padding-top: 2rem;
+  margin-top: 2rem;
 }
