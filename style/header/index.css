@@ -85,6 +85,12 @@ header .account-buttons .sign-in {
   border-radius: 8px;
   border: none;
   outline: none;
+  transition: 0.3s;
+}
+
+header .account-buttons .sign-in:hover {
+  background-color: #b5b6f2;
+  color: #fff;
 }
 
 header .account-buttons .sign-in a {

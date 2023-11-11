@@ -21,6 +21,10 @@
   gap: 48px;
 }
 
+.highlights-buttons-section .buttons .button {
+  cursor: pointer;
+}
+
 .highlights-buttons-section .buttons .button .buttom-image {
   display: flex;
   flex-wrap: wrap;

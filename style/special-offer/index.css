@@ -1,5 +1,5 @@
 .special-offer-section {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   padding: 1rem calc((100vw - 1200px) / 2);
   padding-top: 87px;
   width: 100%;
@@ -8,7 +8,7 @@
   display: inline-flex;
   align-items: center;
   gap: 65px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .special-offer-section .special-offer-picture {
@@ -49,7 +49,7 @@
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.75px;
-  color: #C92071;
+  color: #c92071;
 }
 
 .special-offer-section .special-offer-info .title {
@@ -78,16 +78,17 @@
   line-height: 22px;
   letter-spacing: 0.75px;
   text-align: center;
-  color: #F5F5F5;
-  background-color: #C92071;
+  color: #f5f5f5;
+  background-color: #c92071;
   width: 200px;
   height: 40px;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .special-offer-section .special-offer-info .oferta:hover {
-  color: #F5F5F5;
-  background-color: #991956;
+  color: #f5f5f5;
+  background-color: #b5b6f2;
   transition: 300ms;
 }
