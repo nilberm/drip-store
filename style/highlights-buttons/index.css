@@ -1,8 +1,7 @@
 .highlights-buttons-section {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   width: 50%;
-  margin: auto;
-  margin-top: 100px;
+  margin: 5rem auto;
 }
 
 .highlights-buttons-section h2 {
@@ -25,7 +24,7 @@
 .highlights-buttons-section .buttons .button .buttom-image {
   display: flex;
   flex-wrap: wrap;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 50%;
   height: 104px;
   width: 104px;
@@ -39,36 +38,53 @@
   display: inline-block;
   -webkit-mask-size: cover;
   mask-size: cover;
-  background-color: #8F8F8F;
+  background-color: #8f8f8f;
 }
 
-.highlights-buttons-section .buttons .button .buttom-image .icon[tipo="t-shirt"] {
-  -webkit-mask: url(/assets/images/highlights-buttons/t-shirt.svg) no-repeat 50% 50%;
-  mask: url(/assets/images/highlights-buttons/t-shirt.svg) no-repeat 50% 50%; 
+.highlights-buttons-section
+  .buttons
+  .button
+  .buttom-image
+  .icon[tipo="t-shirt"] {
+  -webkit-mask: url(/assets/images/highlights-buttons/t-shirt.svg) no-repeat 50%
+    50%;
+  mask: url(/assets/images/highlights-buttons/t-shirt.svg) no-repeat 50% 50%;
 }
 
 .highlights-buttons-section .buttons .button .buttom-image .icon[tipo="pant"] {
-  -webkit-mask: url(/assets/images/highlights-buttons/pant.svg) no-repeat 50% 50%;
-  mask: url(/assets/images/highlights-buttons/pant.svg) no-repeat 50% 50%; 
+  -webkit-mask: url(/assets/images/highlights-buttons/pant.svg) no-repeat 50%
+    50%;
+  mask: url(/assets/images/highlights-buttons/pant.svg) no-repeat 50% 50%;
 }
 
 .highlights-buttons-section .buttons .button .buttom-image .icon[tipo="cap"] {
   -webkit-mask: url(/assets/images/highlights-buttons/cap.svg) no-repeat 50% 50%;
-  mask: url(/assets/images/highlights-buttons/cap.svg) no-repeat 50% 50%; 
+  mask: url(/assets/images/highlights-buttons/cap.svg) no-repeat 50% 50%;
 }
 
-.highlights-buttons-section .buttons .button .buttom-image .icon[tipo="headphone"] {
-  -webkit-mask: url(/assets/images/highlights-buttons/headphone.svg) no-repeat 50% 50%;
-  mask: url(/assets/images/highlights-buttons/headphone.svg) no-repeat 50% 50%; 
+.highlights-buttons-section
+  .buttons
+  .button
+  .buttom-image
+  .icon[tipo="headphone"] {
+  -webkit-mask: url(/assets/images/highlights-buttons/headphone.svg) no-repeat
+    50% 50%;
+  mask: url(/assets/images/highlights-buttons/headphone.svg) no-repeat 50% 50%;
 }
 
-.highlights-buttons-section .buttons .button .buttom-image .icon[tipo="sneaker"] {
-  -webkit-mask: url(/assets/images/highlights-buttons/sneaker.svg) no-repeat 50% 50%;
-  mask: url(/assets/images/highlights-buttons/sneaker.svg) no-repeat 50% 50%; 
+.highlights-buttons-section
+  .buttons
+  .button
+  .buttom-image
+  .icon[tipo="sneaker"] {
+  -webkit-mask: url(/assets/images/highlights-buttons/sneaker.svg) no-repeat 50%
+    50%;
+  mask: url(/assets/images/highlights-buttons/sneaker.svg) no-repeat 50% 50%;
 }
 
 .highlights-buttons-section .buttons .button .buttom-image .icon:hover {
-  background-color: #C92071;
+  background-color: #c92071;
+  transition: 300ms;
 }
 
 .highlights-buttons-section .buttons .button .button-title {
