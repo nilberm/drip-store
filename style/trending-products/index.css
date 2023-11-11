@@ -38,6 +38,11 @@
   flex-direction: column;
   gap: 1rem;
   width: 292px;
+  border: 1px solid #fff;
+}
+
+.trending-products .grid-products .card-products:hover {
+  border: 1px solid #ddd;
 }
 
 .trending-products .grid-products .card-products .image-product {
