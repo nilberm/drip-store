@@ -68,6 +68,10 @@ footer .content .column-footer ul a {
   text-decoration: none;
 }
 
+footer .content .column-footer ul a:hover {
+  text-decoration: underline;
+}
+
 footer .bottom {
   display: flex;
   width: 100%;
