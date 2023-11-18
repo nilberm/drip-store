@@ -50,20 +50,21 @@
   .button
   .buttom-image
   .icon[tipo="t-shirt"] {
-  -webkit-mask: url(/assets/images/highlights-buttons/t-shirt.svg) no-repeat 50%
-    50%;
-  mask: url(/assets/images/highlights-buttons/t-shirt.svg) no-repeat 50% 50%;
+  -webkit-mask: url(./assets/images/highlights-buttons/t-shirt.svg) no-repeat
+    50% 50%;
+  mask: url(./assets/images/highlights-buttons/t-shirt.svg) no-repeat 50% 50%;
 }
 
 .highlights-buttons-section .buttons .button .buttom-image .icon[tipo="pant"] {
-  -webkit-mask: url(/assets/images/highlights-buttons/pant.svg) no-repeat 50%
+  -webkit-mask: url(./assets/images/highlights-buttons/pant.svg) no-repeat 50%
     50%;
-  mask: url(/assets/images/highlights-buttons/pant.svg) no-repeat 50% 50%;
+  mask: url(./assets/images/highlights-buttons/pant.svg) no-repeat 50% 50%;
 }
 
 .highlights-buttons-section .buttons .button .buttom-image .icon[tipo="cap"] {
-  -webkit-mask: url(/assets/images/highlights-buttons/cap.svg) no-repeat 50% 50%;
-  mask: url(/assets/images/highlights-buttons/cap.svg) no-repeat 50% 50%;
+  -webkit-mask: url(./assets/images/highlights-buttons/cap.svg) no-repeat 50%
+    50%;
+  mask: url(./assets/images/highlights-buttons/cap.svg) no-repeat 50% 50%;
 }
 
 .highlights-buttons-section
@@ -71,9 +72,9 @@
   .button
   .buttom-image
   .icon[tipo="headphone"] {
-  -webkit-mask: url(/assets/images/highlights-buttons/headphone.svg) no-repeat
+  -webkit-mask: url(./assets/images/highlights-buttons/headphone.svg) no-repeat
     50% 50%;
-  mask: url(/assets/images/highlights-buttons/headphone.svg) no-repeat 50% 50%;
+  mask: url(./assets/images/highlights-buttons/headphone.svg) no-repeat 50% 50%;
 }
 
 .highlights-buttons-section
@@ -81,9 +82,9 @@
   .button
   .buttom-image
   .icon[tipo="sneaker"] {
-  -webkit-mask: url(/assets/images/highlights-buttons/sneaker.svg) no-repeat 50%
-    50%;
-  mask: url(/assets/images/highlights-buttons/sneaker.svg) no-repeat 50% 50%;
+  -webkit-mask: url(./assets/images/highlights-buttons/sneaker.svg) no-repeat
+    50% 50%;
+  mask: url(./assets/images/highlights-buttons/sneaker.svg) no-repeat 50% 50%;
 }
 
 .highlights-buttons-section .buttons .button .buttom-image .icon:hover {
